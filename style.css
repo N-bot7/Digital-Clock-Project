@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://arosieworld.com/wp-content/uploads/2019/02/Pngtree%E2%80%94tall-skyscrapers-in-downtown-suburban_15647875-scaled-e1722251032320.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+#clockContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+h1{
+    font-size: 4rem;
+    color: #CC5500;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+    height: 10vh;
+}
+#clock{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    width: 100vw;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+}
