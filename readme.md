@@ -27,4 +27,7 @@ This project dynamically displays the current time in a clean, responsive design
 1. **Clone this repo**  
    ```bash
    git clone https://github.com/yourusername/digital-clock.git
+2. **Open index.html in your browser**
+
+3.**⏱️ Enjoy your digital clock**
 
